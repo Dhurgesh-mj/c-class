@@ -6,7 +6,7 @@ void add(int *p,int *b,int *c){ // function declaration
 int main(){
     int a,b,c;
     printf("enter the values to add:");
-    scaadd(&a,&b,&c)nf("%d%d",&a,&b);
-    //passing the address of the variable to the pointer
+    scanf("%d%d",&a,&b);
+    add(&a,&b,&c);//passing the address of the variable to the pointer
     printf("%d\n",c);//print the value c after updating 
 }  
