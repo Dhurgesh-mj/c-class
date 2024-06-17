@@ -15,7 +15,7 @@ void password(char *pass){ // to check the pass word by letter by letter
     if (l>=8)
     {
        
-        for (int i = 0; i < l; i++,pass++){
+        for (int i = 0; i < l; i++,pass++){//or pass[i] and rm pass++
             if (isupper(*pass)){
                 upper=upper+1;
               

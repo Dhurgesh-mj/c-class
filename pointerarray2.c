@@ -12,10 +12,10 @@ int main(){
     }
     for ( i = 0; i < 4; i++)
     {
-        p[i]=p[i]*10;
-
+        p[i]=p[i]*10;//using pointer to update the value 
+        //or *p=*p*10 , p=p+1
     }
-    for ( i = 0; i < 4; i++)
+    for ( i = 0; i < 4; i++)//printing the value using pointer 
     {
         printf("the updeted value : %d\n",*p);
         printf("the address :%p\n",p);

@@ -12,7 +12,7 @@ int main(){
     }
     for (i=0;i<4;i++)
     {
-        *p=*p*10;
+        *p=*p*10;// or p[i]=p[i]*10
         printf("the value : %d \n",*p);
         printf("the address stored : %p \n",p);
         p=p+1;// making the pointer to move to next byte
