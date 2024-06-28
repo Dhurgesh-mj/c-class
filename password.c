@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib.h>
+//#include<stdlib.h>
 #include<string.h>//strlen() function
 #include<unistd.h>//getpass function 
 #include<ctype.h>// for checking the the letters
