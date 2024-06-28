@@ -80,9 +80,18 @@ int main(){//mait function
     {
         printf("the password is [WEAK], score[%d]\n",c);
     }
+    else if (c==3)
+    {
+        printf("the password is [AVERAGE],score[%d]\n",c);
+    }
+    
     else if (c==4)
     {
         printf("the password is [AVERAGE],score[%d]\n",c);
+    }
+    else if (c==5)
+    {
+        printf("the password is [MEDIUM],score[%d]\n",c);
     }
     else if (c==6)
     {
