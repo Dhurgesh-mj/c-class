@@ -8,7 +8,7 @@ int main(){
     p=(int *) malloc(no*sizeof(int));
     for (i = 0; i <no; i++)
     {
-        printf("enter teh value in the index of [%d]",i);
+        printf("enter the value in the index of [%d]",i);
         scanf("%d",&p[i]);
     }
     printf("the values are :");

@@ -16,6 +16,6 @@ int main()
     printf("the values in the array :");
     for(i=0;i<no;i++)
     {
-        printf("[%d]\t",p[i]); //or *p with p++ or *(p+1)
+        printf("[%d]\t",*(p+i)); //or (*p with p++) or *(p+i)
     }
 }
