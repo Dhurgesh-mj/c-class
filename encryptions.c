@@ -3,13 +3,13 @@
 
 void encrypt(){
     int a;
-    printf("\nenther the number to encrypt:");
+    printf("\nenther the passowrd to encrypt:");
     scanf("%d",&a);
-    printf("\nthe encrypt number :%d",a<<12);
+    printf("\nthe encrypt password :%d",a<<12);
 
 }
 void decrypt(int c){
-    printf("\nthe encrypt number :%d",c>>12);
+    printf("\nthe encrypt password :%d",c>>12);
 }
 
 int main(){
@@ -26,7 +26,7 @@ int main(){
         
             case 2:
 
-                printf("\nenther the number to decrypt:");
+                printf("\nenther the password to decrypt:");
                 scanf("%d",&b);
                 decrypt(b);
                 break;
