@@ -2,9 +2,9 @@
 struct point
 {
     int x,y;
-};
+}p[3];
 int main(){
-    struct point p[3];
+    // struct point p[3];
     int i;
     for (i=0;i<2;i++){
         printf("enter the values of x & y:");
